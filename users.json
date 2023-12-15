@@ -1,0 +1,22 @@
+[
+  {
+    "username": "letycia neves",
+    "password": "1",
+    "tipo": "paciente"
+  },
+  {
+    "username": "miguel vita",
+    "password": "123",
+    "tipo": "administrador"
+  },
+  {
+    "username": "caprioli",
+    "password": "1",
+    "tipo": "medico"
+  },
+  {
+    "username": "miguel vita",
+    "password": "1",
+    "tipo": "paciente"
+  }
+]

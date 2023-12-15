@@ -1,0 +1,73 @@
+/* Reset de estilos para o corpo da página */
+body, h2, form, input, button, a, p {
+    margin: 0;
+    padding: 0;
+}
+
+/* Defina uma imagem de fundo ou cor de fundo apropriada para o consultório médico */
+body {
+    background: #eceaea;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/* Estilize o container principal */
+.container {
+    width: 300px;
+    margin: 0 auto;
+    padding: 20px;
+    background: rgb(14, 14, 39); ;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    margin-top:100px;
+    -moz-box-align: center;
+ 
+}
+
+/* Estilize o cabeçalho (título) */
+h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #fff0f0;
+}
+
+/* Estilize os campos de entrada de texto */
+input {
+    width: 90%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* Estilize o botão de entrada */
+button {
+    width: 100%;
+    padding: 10px;
+    background: #93A9FF;
+    color: rgb(14, 14, 39);;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+/* Estilize o link para a página de cadastro */
+a {
+    display: block;
+    margin-top: 10px;
+    text-decoration: none;
+    color: #007bff;
+}
+
+/* Estilize a mensagem de erro ou sucesso */
+#message {
+    margin-top: 10px;
+    color: #f00; /* Vermelho para mensagens de erro */
+}
+
+/* Estilize a mensagem de sucesso */
+#message.success {
+    color: rgb(255, 0, 0); /* Azul para mensagens de sucesso */
+}
+
